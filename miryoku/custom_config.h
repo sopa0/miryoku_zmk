@@ -20,6 +20,8 @@ MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(TWM,    "Twm") \
 
+#define MIRYOKU_LAYERMAPPING_TWM MIRYOKU_MAPPING
+
 #define U_BASE   0
 #define U_EXTRA  1
 #define U_TAP    2
