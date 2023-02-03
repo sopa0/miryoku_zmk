@@ -2,10 +2,10 @@
 // https://github.com/manna-harbour/miryoku
 
 #define MIRYOKU_LAYER_TWM \
-&kp LG(LS(N1)),             &kp LG(LS(N2)),             &kp LG(LS(N3)),             &kp LG(LS(N4)),             &kp LG(LS(N5)),             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp LG(N1),     &kp LG(N2),     &kp LG(N3),    &kp LG(N4),    &kp LG(N5),             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, M),     \
-U_LT(U_BUTTON, W), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp COMMA,         &kp DOT,           U_MT(RALT, SLASH), U_LT(U_BUTTON, SQT),\
-U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
+&kp LG(LS(N1)), &kp LG(LS(N2)), &kp LG(LS(N3)), &kp LG(LS(N4)), &kp LG(LS(N5)), &none,  &none,  &none,  &none,  &none, \
+&kp LG(N1),     &kp LG(N2),     &kp LG(N3),     &kp LG(N4),     &kp LG(N5),     &kp BT_SEL 0,  &kp BET_SEL 1,  &kp BET_SEL 2,  &kp BET_SEL 3,  &kp BET_SEL 4,     \
+&none,          &none,          &none,          &none,          &none,          &none,  &none,  &none,  &none,  &none,\
+U_NP,           U_NP,           &none,          &none,          &none,          &kp BT_CLR,  &none,  &none,  U_NP,   U_NP
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
