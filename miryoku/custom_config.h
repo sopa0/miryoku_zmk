@@ -3,7 +3,7 @@
 
 #define MIRYOKU_LAYER_TWM \
 &kp LG(LS(N1)), &kp LG(LS(N2)), &kp LG(LS(N3)), &kp LG(LS(N4)), &kp LG(LS(N5)), U_NP,       U_NP, U_NP, U_NP, U_NP, \
-&kp LG(N1),     &kp LG(N2),     &kp LG(N3),     &kp LG(N4),     &kp LG(N5),     U_NP,       U_NP, U_NP, U_NP, U_NP, \
+&kp LG(N1),     &kp LG(N2),     &kp LG(N3),     &kp LG(N4),     &kp LG(N5),     U_NP,       &kp LG(J), &kp LG(K), &kp LG(L), &kp LG(SEMICOLON), \
 &bt BT_SEL 0,   &bt BT_SEL 1,   &bt BT_SEL 2,   &bt BT_SEL 3,   &bt BT_SEL 4,   U_NP,       U_NP, U_NP, U_NP, U_NP,\
 U_NP,           U_NP,           U_NP,           U_NP,           U_NP,           &bt BT_CLR, U_NP, U_NP, U_NP, U_NP
 
